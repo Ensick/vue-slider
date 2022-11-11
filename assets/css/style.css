@@ -2,11 +2,14 @@
 
     width: 730px;
     height: 410px;
+
 }
 
 img{
     
     width: 100%;
+    height: 100%;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -14,4 +17,10 @@ img{
 .ms-100-vh{
 
     height: 100vh;
+}
+
+.fa-solid{
+
+    text-shadow: 2px 2px black;
+
 }
