@@ -20,11 +20,11 @@ var app = new Vue({
 
     },
 
-    created: function(){
+  /*   created: function(){
 
-        setInterval(this.indice++,5000)
-             
-    },
+       setInterval(this.indice++,5000) 
+              
+    }, */
 
     methods: {
 
