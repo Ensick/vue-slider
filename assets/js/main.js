@@ -12,7 +12,7 @@ var app = new Vue({
     
     data :{
 
-        arrayImmagine: ['./assets/img/bosco.jpg','./assets/img/tramonto.jpg','./assets/img/ghiacciai.jpg','./assets/img/vulcano.jpg'],
+        arrayImmagine: ['./assets/img/bosco.avif','./assets/img/tramonto.jpg','./assets/img/ghiacciai.jpg','./assets/img/vulcano.jpg'],
 
         testoImmagine: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolor, harum illo sequi nostrum earum corporis, expedita atque quam tempore maxime consequuntur",
 
