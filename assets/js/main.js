@@ -4,11 +4,15 @@ var app = new Vue({
     
     data :{
 
-        arrayImmagine: [],
-        
+        arrayImmagine: ['bosco.jpg','tramonto.jpg','ghiacciai.jpg','vulcano.jpg'],
+
     },
 
     methods: {
+
+        cambioImmagine: function (){
+            
+        }
 
     }
 

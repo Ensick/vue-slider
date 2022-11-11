@@ -1,3 +1,15 @@
+.slider{
+
+    width: 730px;
+    height: 410px;
+}
+
+img{
+    
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .ms-100-vh{
 
