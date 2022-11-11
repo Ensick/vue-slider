@@ -20,6 +20,12 @@ var app = new Vue({
 
     },
 
+    created: function(){
+
+        setInterval(this.indice++,5000)
+             
+    },
+
     methods: {
 
         cambioImmagineDestra: function (){
@@ -41,6 +47,30 @@ var app = new Vue({
                 this.indice = 3
 
             }
+        },
+
+        cambioImmaginePallino1: function(){
+
+            this.indice = 0
+
+        },
+
+        cambioImmaginePallino2: function(){
+
+            this.indice = 1
+            
+        },
+
+        cambioImmaginePallino3: function(){
+
+            this.indice = 2
+
+        },
+
+        cambioImmaginePallino4: function(){
+
+            this.indice = 3
+
         },
 
     }
