@@ -16,16 +16,22 @@
         <div class="container d-flex justify-content-center align-items-center ms-100-vh">
 
             <div class="slider position-relative">
+
                 <img :src="arrayImmagine[ indice ]" alt="img">
+
                 <p class="position-absolute bottom-0 start-0 text-white px-3">{{ testoImmagine }}</p>
+
                 <i class="fa-sharp fa-solid fa-arrow-left position-absolute top-50 start-0 translate-middle-y ps-3 text-white fs-5" @click="cambioImmagineSinistra"></i>
+                
                 <i class="fa-sharp fa-solid fa-arrow-right position-absolute top-50 end-0 translate-middle-y pe-3 text-white fs-5" @click="cambioImmagineDestra"></i>
 
                 <div class="position-absolute top-0 start-50 translate-middle-x pt-3 text-white">
+
                     <i class="fa-solid fa-circle" @click="cambioImmaginePallino1"></i>
                     <i class="fa-solid fa-circle ms-2" @click="cambioImmaginePallino2"></i>
                     <i class="fa-solid fa-circle ms-2" @click="cambioImmaginePallino3"></i>
                     <i class="fa-solid fa-circle ms-2" @click="cambioImmaginePallino4"></i>
+
                 </div>
 
             </div>
